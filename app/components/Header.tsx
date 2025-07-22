@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useEffect, useState } from "react";
 
 export default function Header() {
@@ -22,7 +23,7 @@ export default function Header() {
       }`}
     >
       <div className="max-w-7xl mx-auto px-6 md:px-10 lg:px-16 py-5 flex justify-between items-center">
-        <a href="/" className="logo">
+        <Link href="/" className="logo">
           <div className="logo-mark">
             <div className="flow-lines">
               <div className="flow-line"></div>
@@ -38,7 +39,7 @@ export default function Header() {
             <span className="text-blue-500">Hawk</span>
             <span className="sims">Sims</span>
           </div>
-        </a>
+        </Link>
 
         {/* Desktop Nav */}
         <nav className="hidden md:flex space-x-6 text-sm font-medium text-gray-300 items-center">
@@ -66,7 +67,7 @@ export default function Header() {
               </svg>
             </button>
             <div className="absolute left-0 mt-2 w-72 bg-[#18181B] border border-white/10 rounded-lg shadow-lg opacity-0 group-hover:opacity-100 pointer-events-none group-hover:pointer-events-auto transition-opacity z-40 p-2">
-              <a
+              <Link
                 href="#aerospace"
                 className="block px-4 py-2 hover:bg-white/5 rounded"
               >
@@ -76,8 +77,8 @@ export default function Header() {
                 <div className="text-xs text-gray-400">
                   Advanced simulations for aerospace engineering.
                 </div>
-              </a>
-              <a
+              </Link>
+              <Link
                 href="#oilgas"
                 className="block px-4 py-2 hover:bg-white/5 rounded"
               >
@@ -85,8 +86,8 @@ export default function Header() {
                 <div className="text-xs text-gray-400">
                   Reservoir modeling and flow optimization.
                 </div>
-              </a>
-              <a
+              </Link>
+              <Link
                 href="#construction"
                 className="block px-4 py-2 hover:bg-white/5 rounded"
               >
@@ -96,8 +97,8 @@ export default function Header() {
                 <div className="text-xs text-gray-400">
                   Structural analysis and smart city solutions.
                 </div>
-              </a>
-              <a
+              </Link>
+              <Link
                 href="#automotive"
                 className="block px-4 py-2 hover:bg-white/5 rounded"
               >
@@ -105,8 +106,8 @@ export default function Header() {
                 <div className="text-xs text-gray-400">
                   Vehicle dynamics and autonomous systems.
                 </div>
-              </a>
-              <a
+              </Link>
+              <Link
                 href="#electronics"
                 className="block px-4 py-2 hover:bg-white/5 rounded"
               >
@@ -114,7 +115,7 @@ export default function Header() {
                 <div className="text-xs text-gray-400">
                   Circuit simulation and thermal management.
                 </div>
-              </a>
+              </Link>
             </div>
           </div>
           <div className="relative group">
@@ -135,15 +136,15 @@ export default function Header() {
               </svg>
             </button>
             <div className="absolute left-0 mt-2 w-40 bg-[#18181B] border border-white/10 rounded-lg shadow-lg opacity-0 group-hover:opacity-100 pointer-events-none group-hover:pointer-events-auto transition-opacity z-40">
-              <a href="#ai" className="block px-4 py-2 hover:bg-white/5">
+              <Link href="#ai" className="block px-4 py-2 hover:bg-white/5">
                 AI
-              </a>
-              <a href="#cloud" className="block px-4 py-2 hover:bg-white/5">
+              </Link>
+              <Link href="#cloud" className="block px-4 py-2 hover:bg-white/5">
                 Cloud
-              </a>
-              <a href="#data" className="block px-4 py-2 hover:bg-white/5">
+              </Link>
+              <Link href="#data" className="block px-4 py-2 hover:bg-white/5">
                 Data
-              </a>
+              </Link>
             </div>
           </div>
           <div className="relative group">
@@ -164,21 +165,24 @@ export default function Header() {
               </svg>
             </button>
             <div className="absolute left-0 mt-2 w-44 bg-[#18181B] border border-white/10 rounded-lg shadow-lg opacity-0 group-hover:opacity-100 pointer-events-none group-hover:pointer-events-auto transition-opacity z-40">
-              <a
+              <Link
                 href="#consulting"
                 className="block px-4 py-2 hover:bg-white/5"
               >
                 Consulting
-              </a>
-              <a
+              </Link>
+              <Link
                 href="#integration"
                 className="block px-4 py-2 hover:bg-white/5"
               >
                 Integration
-              </a>
-              <a href="#support" className="block px-4 py-2 hover:bg-white/5">
+              </Link>
+              <Link
+                href="#support"
+                className="block px-4 py-2 hover:bg-white/5"
+              >
                 Support
-              </a>
+              </Link>
             </div>
           </div>
           <div className="relative group">
@@ -199,29 +203,35 @@ export default function Header() {
               </svg>
             </button>
             <div className="absolute left-0 mt-2 w-48 bg-[#18181B] border border-white/10 rounded-lg shadow-lg opacity-0 group-hover:opacity-100 pointer-events-none group-hover:pointer-events-auto transition-opacity z-40">
-              <a
+              <Link
                 href="#healthcare"
                 className="block px-4 py-2 hover:bg-white/5"
               >
                 Healthcare
-              </a>
-              <a href="#finance" className="block px-4 py-2 hover:bg-white/5">
+              </Link>
+              <Link
+                href="#finance"
+                className="block px-4 py-2 hover:bg-white/5"
+              >
                 Finance
-              </a>
-              <a href="#education" className="block px-4 py-2 hover:bg-white/5">
+              </Link>
+              <Link
+                href="#education"
+                className="block px-4 py-2 hover:bg-white/5"
+              >
                 Education
-              </a>
+              </Link>
             </div>
           </div>
-          <a href="#research" className="hover:text-white">
+          <Link href="#research" className="hover:text-white">
             Research
-          </a>
-          <a href="/blog" className="hover:text-white">
+          </Link>
+          <Link href="/blog" className="hover:text-white">
             Blog
-          </a>
-          <a href="#about" className="hover:text-white">
+          </Link>
+          <Link href="#about" className="hover:text-white">
             About Us
-          </a>
+          </Link>
         </nav>
 
         {/* Mobile Toggle */}
@@ -268,7 +278,7 @@ function MobileMenu() {
         <div className="fixed inset-0 z-50 flex flex-col md:hidden bg-[#18181B]/95 border border-white/10 rounded-2xl shadow-2xl mx-2 mt-2">
           {/* Logo and Close Icon Row */}
           <div className="flex items-center justify-between px-4 py-4 border-b border-white/10">
-            <a href="./index.html" className="logo">
+            <Link href="./index.html" className="logo">
               <div className="logo-mark">
                 <div className="flow-lines">
                   <div className="flow-line"></div>
@@ -284,7 +294,7 @@ function MobileMenu() {
                 <span className="hawk">Hawk</span>
                 <span className="sims">Sims</span>
               </div>
-            </a>
+            </Link>
             <button
               className="text-white focus:outline-none"
               onClick={() => setIsOpen(false)}
@@ -351,7 +361,7 @@ function MobileMenu() {
             >
               {openDropdown === "industries" && (
                 <div className="pl-4 py-2 space-y-1">
-                  <a
+                  <Link
                     href="#aerospace"
                     className="block py-2 px-2 rounded-lg hover:bg-violet-700/20 transition-colors"
                   >
@@ -361,8 +371,8 @@ function MobileMenu() {
                     <div className="text-xs text-gray-400">
                       Advanced simulations for aerospace engineering.
                     </div>
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     href="#oilgas"
                     className="block py-2 px-2 rounded-lg hover:bg-violet-700/20 transition-colors"
                   >
@@ -370,8 +380,8 @@ function MobileMenu() {
                     <div className="text-xs text-gray-400">
                       Reservoir modeling and flow optimization.
                     </div>
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     href="#construction"
                     className="block py-2 px-2 rounded-lg hover:bg-violet-700/20 transition-colors"
                   >
@@ -381,8 +391,8 @@ function MobileMenu() {
                     <div className="text-xs text-gray-400">
                       Structural analysis and smart city solutions.
                     </div>
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     href="#automotive"
                     className="block py-2 px-2 rounded-lg hover:bg-violet-700/20 transition-colors"
                   >
@@ -390,8 +400,8 @@ function MobileMenu() {
                     <div className="text-xs text-gray-400">
                       Vehicle dynamics and autonomous systems.
                     </div>
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     href="#electronics"
                     className="block py-2 px-2 rounded-lg hover:bg-violet-700/20 transition-colors"
                   >
@@ -399,7 +409,7 @@ function MobileMenu() {
                     <div className="text-xs text-gray-400">
                       Circuit simulation and thermal management.
                     </div>
-                  </a>
+                  </Link>
                 </div>
               )}
             </div>
@@ -436,24 +446,24 @@ function MobileMenu() {
               >
                 {openDropdown === "capabilities" && (
                   <div className="pl-4 py-2 space-y-1">
-                    <a
+                    <Link
                       href="#ai"
                       className="block py-2 px-2 rounded-lg hover:bg-violet-700/20 transition-colors"
                     >
                       AI
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="#cloud"
                       className="block py-2 px-2 rounded-lg hover:bg-violet-700/20 transition-colors"
                     >
                       Cloud
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="#data"
                       className="block py-2 px-2 rounded-lg hover:bg-violet-700/20 transition-colors"
                     >
                       Data
-                    </a>
+                    </Link>
                   </div>
                 )}
               </div>
@@ -491,24 +501,24 @@ function MobileMenu() {
               >
                 {openDropdown === "services" && (
                   <div className="pl-4 py-2 space-y-1">
-                    <a
+                    <Link
                       href="#consulting"
                       className="block py-2 px-2 rounded-lg hover:bg-violet-700/20 transition-colors"
                     >
                       Consulting
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="#integration"
                       className="block py-2 px-2 rounded-lg hover:bg-violet-700/20 transition-colors"
                     >
                       Integration
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="#support"
                       className="block py-2 px-2 rounded-lg hover:bg-violet-700/20 transition-colors"
                     >
                       Support
-                    </a>
+                    </Link>
                   </div>
                 )}
               </div>
@@ -546,47 +556,47 @@ function MobileMenu() {
               >
                 {openDropdown === "solutions" && (
                   <div className="pl-4 py-2 space-y-1">
-                    <a
+                    <Link
                       href="#healthcare"
                       className="block py-2 px-2 rounded-lg hover:bg-violet-700/20 transition-colors"
                     >
                       Healthcare
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="#finance"
                       className="block py-2 px-2 rounded-lg hover:bg-violet-700/20 transition-colors"
                     >
                       Finance
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="#education"
                       className="block py-2 px-2 rounded-lg hover:bg-violet-700/20 transition-colors"
                     >
                       Education
-                    </a>
+                    </Link>
                   </div>
                 )}
               </div>
             </div>
             {/* Other menu items */}
-            <a
+            <Link
               href="#research"
               className="block py-3 px-2 rounded-lg hover:bg-violet-700/20 transition-colors"
             >
               Research
-            </a>
-            <a
+            </Link>
+            <Link
               href="/blog"
               className="block py-3 px-2 rounded-lg hover:bg-violet-700/20 transition-colors"
             >
               Blog
-            </a>
-            <a
+            </Link>
+            <Link
               href="#about"
               className="block py-3 px-2 rounded-lg hover:bg-violet-700/20 transition-colors"
             >
               About Us
-            </a>
+            </Link>
           </div>
         </div>
       )}
