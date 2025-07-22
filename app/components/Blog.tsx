@@ -6,13 +6,10 @@ import {
   Calendar,
   Clock,
   User,
-  Tag,
   Search,
-  Filter,
   ChevronDown,
   Moon,
   Sun,
-  Monitor,
 } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
