@@ -1,0 +1,32 @@
+.product-background {
+  background:linear-gradient(66deg, #0E0E14 53.67%, #3D61DF 140.87%);
+  background-blend-mode: multiply;
+}
+
+.swiperPagination {
+  border: 1px solid white;
+  position: absolute;
+  left: 70px;
+  bottom: 30px;
+}
+.swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background: rgb(144, 145, 147);
+  opacity: 0.5;
+  border-radius: 50%;
+  transition: opacity 0.3s;
+}
+
+.swiper-pagination-bullet-active {
+  background: #5f80f6;
+  opacity: 1;
+}
+.active {
+  background: #5f80f6;
+}
+
+.blurSlide {
+  filter: blur(3px);
+  opacity: 0.85;
+}

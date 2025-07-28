@@ -1,0 +1,8 @@
+.swiperSlide {
+  width: auto !important;
+  flex-shrink: 0;
+}
+.customPagination {
+  margin-top: 22px;
+  position: relative;
+}

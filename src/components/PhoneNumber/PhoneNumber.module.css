@@ -1,0 +1,14 @@
+.phoneInput {
+  margin: 4px 0 !important;
+}
+
+.abc {
+  width: 100% !important;
+  border-radius: 8px !important;
+  border: 1px solid #dfdfe0;
+  /* height: 39px !important; */
+  height: 48px !important;
+}
+.react-tel-input .form-control {
+  height: 48px;
+}

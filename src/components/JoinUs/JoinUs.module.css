@@ -1,0 +1,96 @@
+.cardContainer {
+  box-shadow: 0px 4px 14px 0px rgba(95, 128, 246, 0.3);
+}
+.bgButton {
+  background-image: linear-gradient(311deg, #5f80f6 20.02%, #3f49a7 112.23%);
+}
+@media screen and (min-width: 481px) and (max-width: 500px) {
+  .cardContent {
+    padding: 16px;
+  }
+}
+.cardContainer {
+  box-shadow: 0px 4px 14px 0px rgba(95, 128, 246, 0.3);
+}
+.bgButton {
+  background-image: linear-gradient(311deg, #5f80f6 20.02%, #3f49a7 112.23%);
+}
+@media screen and (min-width: 481px) and (max-width: 500px) {
+  .cardContent {
+    padding: 16px;
+  }
+}
+.btnBg {
+  background: linear-gradient(311deg, #5f80f6 20.02%, #3f49a7 112.23%);
+}
+.imagesContainer {
+  display: flex;
+  width: 100%;
+}
+.cardBg {
+  background: rgba(242, 243, 250, 0.08);
+}
+@media screen and (min-width: 481px) and (max-width: 600px) {
+  .keyword {
+    font-size: 12px;
+  }
+}
+.waitingBg {
+  background: linear-gradient(
+    104deg,
+    #eef2f6 25.5%,
+    #fff 39%,
+    #eef2f6 49%,
+    #fff 55%,
+    #eef2f6 59%
+  );
+}
+
+@media screen and (min-width: 300px) and (max-width: 410px) {
+  .keyword {
+    font-size: 10px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .solutionEcStoriesContainer {
+    max-width: 310px;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 590px) {
+  .solutionEcStoriesContainer {
+    max-width: 458px;
+  }
+  .storyImg {
+    height: 118px;
+  }
+  .keyword {
+    height: 118px;
+  }
+}
+
+@media screen and (min-width: 310px) and (max-width: 350px) {
+  .csrArrowContainer {
+    height: 189px;
+  }
+}
+
+.blurSlide {
+  filter: blur(4px);
+  opacity: 0.85;
+}
+
+.hidePreviousCard {
+  opacity: 0;
+  pointer-events: none;
+} 
+
+@media screen and (min-width:1024px) and (max-width:1060px){
+  .jobContainer{
+    margin-top: 124px;
+  }
+}
+@media screen and (min-width:1061px) and (max-width:1222px){
+  .jobContainer{
+    margin-top: 100px;
+  }
+}

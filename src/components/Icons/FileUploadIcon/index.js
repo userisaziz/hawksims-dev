@@ -1,0 +1,42 @@
+const FileUploadIcon = () => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="52"
+      height="52"
+      viewBox="0 0 52 52"
+      fill="none"
+    >
+      <path
+        d="M19.5001 36.833V23.833L15.1667 28.1663"
+        stroke="#3F49A7"
+        stroke-width="1.5"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+      <path
+        d="M19.5 23.833L23.8333 28.1663"
+        stroke="#3F49A7"
+        stroke-width="1.5"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+      <path
+        d="M47.6666 21.6663V32.4997C47.6666 43.333 43.3333 47.6663 32.4999 47.6663H19.4999C8.66659 47.6663 4.33325 43.333 4.33325 32.4997V19.4997C4.33325 8.66634 8.66659 4.33301 19.4999 4.33301H30.3333"
+        stroke="#3F49A7"
+        stroke-width="1.5"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+      <path
+        d="M47.6666 21.6663H38.9999C32.4999 21.6663 30.3333 19.4997 30.3333 12.9997V4.33301L47.6666 21.6663Z"
+        stroke="#3F49A7"
+        stroke-width="1.5"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+    </svg>
+  );
+};
+
+export default FileUploadIcon;

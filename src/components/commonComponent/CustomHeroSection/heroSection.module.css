@@ -1,0 +1,13 @@
+@media screen and (min-width: 1024px) and (max-width: 1068px) {
+  .heroContainer {
+    margin-top: 107px;
+  }
+}
+@media screen and (min-width: 1069px) {
+  .heroContainer {
+    margin-top: 83px;
+  }
+  .searchContainer {
+    padding: 5px 0;
+  }
+}
